@@ -7,6 +7,9 @@ import altair as alt
 st.set_page_config(page_title='Interactive Data Explorer', page_icon='📊')
 st.title('📊 Interactive Data Explorer')
 
+st.sidebar.title('sidebar title')
+
+
 st.title("title")
 st.header("header")
 st.markdown("markdown")
@@ -33,6 +36,14 @@ st.write('행성', planet)
 st.number_input('Pick a number', 0, 10)
 
 color = st.color_picker('Choose your favorite color')
+
+
+
+
+
+
+
+
 
 
 
