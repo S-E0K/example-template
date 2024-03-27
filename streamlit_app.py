@@ -27,7 +27,7 @@ gender = st.radio('Pick gender', ['male', 'female'])
 st.selectbox('Pick gender', ['male', 'female'])
 planet = st.multiselect('choose a planet', ['jupiter', 'mars', 'earth'])
 st.select_slider('Pick a mark', ['Bad', 'Good'])
-x = st.sider('Pick a number', 0, 50)
+x = st.slider('Pick a number', 0, 50)
 
 
 st.write('성별', gender)
